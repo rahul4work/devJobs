@@ -1,12 +1,11 @@
 # DevJobs
 
-A specialized job-search platform built with React.js, targeting the tech community and offering an optimized user experience.
 
 ![Project Image](./demo_img/project_tablet.png)
 
 > A job board for developers showing job vacancies to job seekers. Users can search and apply for new job opportunities in their area and profession.
 >
-> #### Visit site to Check live demo [_here_](https://dev-jobs-job-search-website.vercel.app/).
+
 
 ---
 
