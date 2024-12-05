@@ -1,0 +1,207 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1021px) {
+  body {
+    position: relative;
+    left: 0px;
+    top: 0px;
+    overflow-x: hidden;
+  }
+  .Navbar-header {
+    position: absolute;
+    width: 100vw;
+    height: 160px;
+    left: 0px;
+    top: 0px;
+    background-image: url("../../assets/tablet/bg-pattern-header.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbar-logo {
+    position: absolute;
+    height: 32px;
+    width: 115px;
+    left: 39px;
+    top: 42px;
+  }
+  .theme-toggle-container {
+    left: 616px;
+    top: 46px;
+  }
+  .icon-sun {
+    position: absolute;
+    width: 20px;
+    height: 18.6px;
+    left: -37px;
+    top: 3px;
+  }
+  .icon-moon {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 67px;
+    top: 2px;
+  }
+  .filter-bar {
+    position: absolute;
+    width: 689px;
+    height: 80px;
+    left: 39px;
+    top: 120px;
+  }
+  .filter-search-container {
+    column-gap: 16px;
+    position: absolute;
+    width: 147px;
+    height: 24px;
+    left: 40px;
+  }
+  .filter-search-container::after {
+    left: 199px;
+    top: -29px;
+  }
+  .filter-location-container::after {
+    left: 178px;
+    top: -29px;
+  }
+  .filter-search-container > input {
+    position: absolute;
+    left: 40px;
+    height: 16px;
+    width: 105px;
+    top: 3px;
+  }
+  .filter-location-container > input {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    top: 3px;
+    left: 33px;
+  }
+  .filter-location-container > input:valid {
+    border-right: 1px solid var(--violet);
+    width: 80px;
+  }
+  .filter-search-container > input:valid {
+    border-right: 1px solid var(--violet);
+    width: 147px;
+  }
+  .filter-location-container {
+    position: absolute;
+    column-gap: 16px;
+    width: 169px;
+    height: 24px;
+    left: 266px;
+  }
+  .filter-fullTime-container {
+    width: 108px;
+    height: 24px;
+    left: 476px;
+  }
+  .full-time-checkbox {
+    margin-right: 16px;
+    position: absolute;
+    height: 24px;
+    right: 80.78%;
+  }
+  .filter-fullTime-container > label {
+    position: absolute;
+    height: 20px;
+    width: 113px;
+    left: 20px;
+  }
+  .filter-button {
+    position: absolute;
+    width: 80px;
+    height: 48px;
+    left: 592px;
+  }
+  .filter-button > button {
+    width: 80px;
+    height: 48px;
+  }
+  /* contents style section */
+  .main-container {
+    left: 50%;
+    transform: translate(-50%, 0%);
+    top: 245px;
+    width: 700px;
+  }
+  .cards-container {
+    height: 1698px;
+    grid-template-columns: repeat(2, 339px);
+    grid-column-gap: 11px;
+    grid-row-gap: 65px;
+    padding-top: 4%;
+  }
+  .card {
+    width: 339px;
+  }
+  .load-more-btn-container {
+  }
+
+  /* details page styles */
+  .details-header-bar {
+    width: 689px;
+    height: 140px;
+    left: 39px;
+    top: 120px;
+  }
+  .details-company-logo {
+    width: 140px;
+    height: 140px;
+    left: 0%;
+    top: 0%;
+  }
+  .details-companyNameSite-container {
+    left: 180px;
+    top: 42px;
+  }
+  .details-companyLink-btn-container {
+    right: 43px;
+    top: 46px;
+  }
+  .main-apply-now-btn-container {
+    right: 0%;
+    top: calc(50% - 28px / 2 - 3px);
+  }
+  .details-position-info-container {
+    left: 39px;
+    top: 152px;
+  }
+  .details-position {
+    height: 28px;
+    left: 0%;
+  }
+  .requirements-heading {
+    height: 20px;
+  }
+  .roles-description,
+  .requirements-description {
+    width: 593px;
+    margin: 28px 48px 24px 48px;
+  }
+  .details-position-description {
+    width: 593px;
+  }
+  .list-container {
+    max-width: 593px;
+  }
+  .details-footer {
+    width: 100%;
+    height: 96px;
+    top: 205px;
+  }
+  .details-footer-position {
+    height: 51px;
+    left: 39px;
+    top: 23px;
+  }
+  .details-footer-apply-btn-container {
+    left: 587px;
+    top: 25px;
+  }
+}
