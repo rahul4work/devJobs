@@ -1,14 +1,14 @@
 import "./index.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
-import ScrollToTop from "./Header/scrollToTop";
-import Home from "./components/Homepage/Home";
-import Navbar from "./Header/Navbar";
+import ScrollToTop from "./header/scrollToTop";
+import Home from "./components/homepage/Home";
+import Navbar from "./header/Navbar";
 import Main from "./components/main/mainContents";
 import Cards from "./components/cards/cards";
-import Details from "./components/DetailsPage/Details";
-import ErrorPage from "./components/Homepage/errorPage";
-import SharedLayout from "./Header/sharedLayout";
+import Details from "./components/detailsPage/Details";
+import ErrorPage from "./components/homepage/errorPage";
+import SharedLayout from "./header/sharedLayout";
 function App() {
   // theme toggle state
   const [darkTheme, setDarkTheme] = useState(false);
